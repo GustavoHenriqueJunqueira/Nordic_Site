@@ -9,5 +9,7 @@ index vai ser o basico o qual tera um meno lateral superior com os tres links pa
     Historia 
     Musica
 Obs. Qualquer coisa mudar o nome posteriormente. 
+Em relacao ao contedudo do index so tera apenas um pequeno texto centralizado ao meio da pagina
+
 
 Organizando primeiramente a pagina index.html
