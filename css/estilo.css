@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("C:/Users/gusta/Documents/GitHub/Nordic_Site/img/index.jpg");
+    background-position: 10px;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    font-size: 16px;
+    font-family: "trebuchet MS", helvetica, sans-serif;
+}
+
+#navegacao{
+    /*background:#f9f9f9;*/
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+#area{
+    width: 720px;
+    margin:0 auto; 
+}
+#area-principal{
+    width: 720px;
+    margin:55px auto 10px auto; 
+}
+#logo{
+    float: left;
+}
+#menu{
+    float: right;
+    padding: 10px 0;
+}
+#postagem{
+    background-color: rgba(10,23,55,0.9);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27;
+}
+h2{
+   color:#b9c941; 
+}
+/*Formatacao Menu*/
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+/*Links nao visitados*/
+a:link{
+    color:#cfc6c6;
+}
+/*Links visitados*/
+a:visited{
+    color: #cfc6c6;
+}
+/*Links houver*/
+a:hover{
+    color: #fff;
+    background: #add8e6;
+}
+/*Links active*/
+a:active{
+    color: #cfc6c6;
+}
+/*classes*/
+.preto{
+    color: #000;
+}
+.data-postagem{
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.img-index{
+    float: center;
+    margin: 10px 10px 10px 150px;    
+}
+.postado{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin: 10px 10px 10px 280px;
+}
