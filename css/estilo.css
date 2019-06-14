@@ -63,7 +63,7 @@ a:visited{
 /*Links houver*/
 a:hover{
     color: #fff;
-    background: #add8e6;
+    /*background: #add8e6;*/
 }
 /*Links active*/
 a:active{
