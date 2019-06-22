@@ -38,7 +38,7 @@ body{
     padding: 10px 0;
 }
 #postagem{
-    background-color: rgba(10,23,55,0.9);
+   /* background-color: rgba(10,23,55,0.9);*/
     padding: 10px;
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -84,7 +84,7 @@ a:active{
     float: center;
     margin: 10px 10px 10px 150px;    
 }
-.postado{
+.texto{
     border-left: 5px solid #d8d8d8;
     padding-left: 5px;
     display: block;
