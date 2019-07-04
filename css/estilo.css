@@ -17,17 +17,21 @@ nav.navbar-transparente{
     background: rgba(0,0,0,0.6);
     border: none;
 }
-
-
-
+.texto-index{
+    text-align: center;
+    color:black;
+    display: table-cell;
+    vertical-align: center;
+}
 #conteudo-principal{
     padding-top:20px; 
     width: 720px;
     margin:55px auto 10px auto;
     color: #000; 
 }
-#logo{
+#nomePrincipal{
     float: left;
+    color: black;
 }
 #menu{
     float: right;
@@ -65,9 +69,6 @@ a:active{
     color: #cfc6c6;
 }
 /*classes*/
-.preto{
-    color: #000;
-}
 .data-postagem{
     font-size: 14px;
     border-bottom: 1px solid #f4f4f4;
