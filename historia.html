@@ -1,25 +1,54 @@
 <!doctype html>
 <html>
     <head>
-        <title>NordSite - Historias</title>
-        <link rel="icon" href="img/CrossedAx.jpg" type="image/x-icon" />    
+
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title class="titulo">NordSite</title width="200">
+        <link rel="icon" href="img/CrossedAx.jpg" type="image/x-icon" />   
+               
+        <!--Bootstrap/Estilo-->
+        <link href="bootstrap_v3-3-6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
     </head>
     <body>
-        
-        <div id="navegacao">
-            <div id="area">
-                <h1 id="logo"><a href="index.html"><span class="preto">Nord</span>Site</a></h1>
-                <div id="menu">
-                    <a href="index.html">Home |</a>
-                    <a href="musicas.html">Musica |</a>
-                    <a href="historia.html">Historias |</a>
+        <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+            <div class="container">
+            <!--Header-->
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" data-target="#barra-navegacao">
+                        <span class="sr-only">alternar navegacao></span>      
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   
+                    <h1 id="logo"><span class="preto">Nord</span>Site</a></h1>
+                </div>
+                <!--Navbar-->
+                <div class="collapse navbar-collapse" id="barra-navegacao">
+                    <ul class="nav navbar-nav navbar-right" >
+                      <li><a href="index.html">Home |</a></li>
+                      <li><a href="musicas.html">Musica |</a></li>
+                      <li><a href="historia.html">Historias |</a></li>
+                    </ul>  
                 </div>
             </div>  
-        </div>
-        <div id="area-principal"><strong>
-            <div id="postagem">
+        </nav>
+        <div id="conteudo-principal"><strong>
+            <div id="conteudo-texto">
                 <span class="text">O construtor</span>
                 <p>
                   <i>
@@ -44,7 +73,7 @@
                 </p>
                 <img class="img-index" src="img/CONSTRUTOR DO MURO E SVADILFARI.jpg" width="400px" >
             </div>
-            <div id="texto">
+            <div id="conteudo-texto">
                 <span class="texto">O roubo do martelo de Thor</span>
                 <p>
                   <i>

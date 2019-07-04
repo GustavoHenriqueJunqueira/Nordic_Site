@@ -1,6 +1,6 @@
 
 html,body,.capa{
-    height: 100%;
+    height: auto;
     overflow: auto;
 }
 body{
@@ -12,22 +12,19 @@ body{
     font-size: 16px;   
 }
 /*Barra de Navegacao*/
-#navegacao{
-    /*background:#f9f9f9;*/
-    border-bottom: 1px solid #d8d8d8;
-    height: 45px;
-    position: fixed;
-    width: 100%;
-    top: 0;
+nav.navbar-transparente{
+    padding: 5px 0px;
+    background: rgba(0,0,0,0.6);
+    border: none;
+}
 
-}
-#area{
+
+
+#conteudo-principal{
+    padding-top:20px; 
     width: 720px;
-    margin:0 auto; 
-}
-#area-principal{
-    width: 720px;
-    margin:55px auto 10px auto; 
+    margin:55px auto 10px auto;
+    color: #000; 
 }
 #logo{
     float: left;
@@ -36,8 +33,7 @@ body{
     float: right;
     padding: 10px 0;
 }
-#postagem{
-   /* background-color: rgba(10,23,55,0.9);*/
+#conteudo-texto{
     padding: 10px;
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
