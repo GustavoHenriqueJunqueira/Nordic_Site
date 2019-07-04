@@ -1,18 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
+
+html,body,.capa{
+    height: 100%;
+    overflow: auto;
 }
 body{
-    background-image: url("C:/Users/gusta/Documents/GitHub/Nordic_Site/img/index.jpg");
-    background-position: 10px;
+    background: url("C:/Users/gusta/Documents/GitHub/Nordic_Site/img/index.jpg"),
+                linear-gradient(50deg,#e9e9e9, #0088ff);
     background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #000;
-    font-size: 16px;
     font-family: "trebuchet MS", helvetica, sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;   
 }
-
+/*Barra de Navegacao*/
 #navegacao{
     /*background:#f9f9f9;*/
     border-bottom: 1px solid #d8d8d8;
