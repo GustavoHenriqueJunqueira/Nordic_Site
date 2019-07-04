@@ -17,3 +17,8 @@ Realizando a nova implementaçao do site juntamente utilizando bootstrap 3.3.6 e
 que nao vai contar com tantas coisas assim, será melhor termos menos paginas mas um contaudo muito melhor. 
 
 Já foi adicionado os arquivos na pasta do projeto, e enviado ao github. 
+
+* retirada da página (Videos) [v]
+* Ajustes do bootestrap nas paginas (Home - Musica - Historia) []
+* Ajustes nos grids utilizando o bootestrap []
+* Ajuste na imagem do background para se tornar fixa e responsiva. 
