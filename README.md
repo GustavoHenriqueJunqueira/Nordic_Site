@@ -10,3 +10,10 @@ Eu adicionei o site em um servidor e ate o momento ele esta online, podendo ser 
 https://nordicsite.000webhostapp.com/
 
 20/06/2019
+
+03/07/2019
+
+Realizando a nova implementaçao do site juntamente utilizando bootstrap 3.3.6 estou pensando em retirar a pagina de videos ja 
+que nao vai contar com tantas coisas assim, será melhor termos menos paginas mas um contaudo muito melhor. 
+
+Já foi adicionado os arquivos na pasta do projeto, e enviado ao github. 
