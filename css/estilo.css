@@ -11,9 +11,8 @@ body{
     overflow-x: hidden;
     font-size: 16px;   
 }
-img{
-    opacity: 0.2;
-}
+
+
 /*Barra de Navegacao*/
 nav.navbar-transparente{
     padding: 5px 0px;
@@ -26,11 +25,12 @@ nav.navbar-transparente{
     display: table-cell;
     vertical-align: center;
 }
-#conteudo-principal{
+#conteudo-principal {
     padding-top:20px; 
     width: 720px;
     margin:55px auto 10px auto;
     color: #000; 
+    
 }
 #nomePrincipal{
     float: left;
@@ -44,7 +44,7 @@ nav.navbar-transparente{
     padding: 10px;
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 27;
+    font-size: 30;
 }
 h2{
    color:#b9c941; 
@@ -81,7 +81,8 @@ a:active{
 }
 .img-index{
     float: center;
-    margin: 10px 10px 10px 150px;    
+    margin: 10px 10px 10px 150px;
+    opacity: 1;    
 }
 .texto{
     border-left: 5px solid #d8d8d8;
