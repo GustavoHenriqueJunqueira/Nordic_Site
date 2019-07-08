@@ -31,7 +31,7 @@ nav.navbar-transparente{
     color: white;
     background: none;
 }/*Fim da bara de navegacao*/
-.texto-index{
+.texto-titulo{
     text-align: center;
     color:black;
     display: table-cell;
@@ -106,4 +106,9 @@ a:active{
 }
 #texto-home{
     color: black;
+}
+/*Tipografia*/
+p {
+    color: #000;
+    font-size: 20px;
 }
