@@ -19,6 +19,18 @@ nav.navbar-transparente{
     background: rgba(0,0,0,0.6);
     border: none;
 }
+nav.navbar-transparente{
+    padding: 15px 0px 0px 0px;
+    background: rgba(0,0,0,0.6);
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a, footer .nav a :hover{
+    color: white;
+    background: none;
+}/*Fim da bara de navegacao*/
 .texto-index{
     text-align: center;
     color:black;
@@ -35,6 +47,8 @@ nav.navbar-transparente{
 #nomePrincipal{
     float: left;
     color: black;
+    padding-top: 0px;
+    font-size: 35px;
 }
 #menu{
     float: right;
@@ -89,4 +103,7 @@ a:active{
     padding-left: 5px;
     display: block;
     margin: 10px 10px 10px 280px;
+}
+#texto-home{
+    color: black;
 }
