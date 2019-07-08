@@ -11,8 +11,6 @@ body{
     overflow-x: hidden;
     font-size: 16px;   
 }
-
-
 /*Barra de Navegacao*/
 nav.navbar-transparente{
     padding: 5px 0px;
@@ -42,7 +40,6 @@ nav.navbar-transparente{
     width: 720px;
     margin:55px auto 10px auto;
     color: #000; 
-    
 }
 #nomePrincipal{
     float: left;
@@ -92,11 +89,16 @@ a:active{
     display: block;
     padding-bottom: 10px;
     margin-bottom: 10px;
-}
+}/*Formatacao das imagens*/
 #ragnar{
     float: center;
     margin: 10px 10px 10px 150px;
     opacity:0.7;    
+}
+#img-historia{
+    float: center;
+    margin: 10px 10px 10px 150px;
+    size: 100px;
 }
 .texto{
     border-left: 5px solid #d8d8d8;
@@ -106,6 +108,8 @@ a:active{
 }
 #texto-conteudo{
     color: black;
+    font-size: 20px;
+    font-style: italic;
 }
 /*Tipografia*/
 p {
